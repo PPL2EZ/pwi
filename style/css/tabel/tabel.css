@@ -1,0 +1,78 @@
+#one-column-emphasis{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:12px;
+	text-align:left;
+	border-collapse:collapse;
+	margin:20px;
+}
+#one-column-emphasis th{
+	font-size:14px;
+	font-weight:normal;
+	color:#039;
+	padding:12px 20px;
+	text-align:center;
+}
+#one-column-emphasis td{
+	color:#669;
+	border-top:1px solid #e8edff;
+	padding:10px 15px;
+	text-align:center;
+}
+.oce-first{
+	background:#d0dafd;
+	border-right:10px solid transparent;
+	border-left:10px solid transparent;
+}
+#one-column-emphasis tr:hover td{
+	color:#339;
+	background:#eff2ff;
+}
+
+#box-table-a{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:12px;
+	text-align:left;
+	border-collapse:collapse;
+	margin:20px;
+}
+#box-table-a th{
+	font-size:13px;
+	font-weight:normal;
+	background:#b9c9fe;
+	border-bottom:1px solid #fff;
+	color:#039;
+	padding:8px;
+	text-align:center;
+}
+#box-table-a td{
+	background:#e8edff;
+	border-bottom:1px solid #fff;
+	color:#669;
+	border-top:1px solid transparent;
+	padding:8px;
+}
+#box-table-a tr:hover td{
+	background:#d0dafd;
+	color:#339;
+}
+
+select#bulan,#tahun{
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
